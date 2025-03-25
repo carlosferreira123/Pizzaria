@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router"
 import { Dashboard } from "./pages/app/dashboard"
-import { SingIn } from "./pages/auth/sing-in"
+import { SingIn } from "../src/pages/auth/sing-in"
 import { AppLayout } from "./pages/_layouts/app"
 import { AuthLayout } from "./pages/_layouts/auth"
 
@@ -21,6 +21,8 @@ export const router = createBrowserRouter ([
         {path: '/sign-in', element:<SingIn/>}
     ]
    }
+
+   
    
   
 ])
