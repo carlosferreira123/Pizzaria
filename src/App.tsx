@@ -1,7 +1,7 @@
 import { RouterProvider } from "react-router";
 import './global.css'
 import { router } from "./routes";
-import { Toaster, toast } from 'sonner'
+import { Toaster,  } from 'sonner'
 
 export function App() {
 
